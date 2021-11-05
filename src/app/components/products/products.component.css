@@ -1,0 +1,28 @@
+h1 {
+    font-weight: 100;
+    margin-top: 2em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+p {
+    font-weight: 100;
+}
+
+img {
+    width: 25em;
+}
+
+@media (max-width: 400px) {
+    img {
+        width: 22em;
+    }
+  }

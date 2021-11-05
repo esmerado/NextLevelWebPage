@@ -1,0 +1,54 @@
+<div class="row">
+
+    <div class="title col s10 offset-s2 m12">
+
+        <h1>Contacto</h1>
+
+    </div>
+
+</div>
+
+<div class="form row">
+
+    <form action="send.php" method="POST" class="col s8 offset-s2">
+
+        <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input name="first_name" id="icon_prefix" type="text" class="validate" required>
+            <label for="icon_prefix">Nombre *</label>
+        </div>
+          <div class="input-field col s6">
+            <input name="last_name" id="last_name" type="text" class="validate" required>
+            <label for="last_name">Apellido *</label>
+          </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input name="phone" id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telefono</label>
+        </div>
+          <div class="input-field col s6">
+            <input name="email" id="email" type="email" class="validate" required>
+            <label for="email">Email *</label>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea name="text" id="textarea1" class="materialize-textarea" required></textarea>
+              <label for="textarea1">Escribe aqui....</label>
+          </div>
+        </div>
+
+        <div class="btn col s5 m3 l2 white waves-effect waves-light">
+            <input class="submit" name="submit" type="submit"/>
+        </div>
+
+    </form>
+
+</div>
+
+

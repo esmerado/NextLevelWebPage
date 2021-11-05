@@ -1,0 +1,49 @@
+h1 {
+    font-weight: 100;
+    margin-top: 2em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h4 {
+    font-weight: 100;
+    font-size: 1.7em;
+}
+
+.info iframe {
+    margin-top: 4em;
+    width: 70vw;
+    height: 400;
+    border: 0;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.info-div{
+    margin-top: 3em;
+}
+
+.form h3{
+    margin-top: 3em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.form-btn button {
+    margin-bottom: 5em;
+}
+
+form input[type="submit"] {
+    color: #fff !important;
+}

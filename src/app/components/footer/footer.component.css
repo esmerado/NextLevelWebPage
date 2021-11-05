@@ -1,0 +1,18 @@
+footer {
+    margin-top: 10em;
+    background-color: #242323;
+    box-shadow: none;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 100;
+}
+
+img {
+    width: 10em;
+    margin-top: 2em;
+}

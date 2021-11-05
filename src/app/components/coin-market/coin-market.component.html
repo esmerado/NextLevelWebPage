@@ -1,0 +1,65 @@
+
+<div class="row">
+
+  <div class="col s6 m12 offset-s2">
+    <h1>Crypto Market</h1>
+  </div>
+  
+</div>
+
+  <div class="container p-3">
+
+    <div class="row price-div">
+
+      <div class="col s12 ">
+
+        <span class="span-search">Busca tu moneda:</span>
+    <input type="text" class="search-bar"
+    (keyup)="searchCoin()"
+    [(ngModel)]="searchText"
+    />
+
+    <table class="highlight responsive-table">
+      <thead>
+        <tr>
+          <th *ngFor="let title of titles">
+            {{title}}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let coin of filteredCoins; let i = index">
+          <td class="text-muted">
+            {{i + 1}}
+          </td>
+          <td>
+            <img [src]="coin.image" alt="{{coin.name}}" style="width: 2rem;">
+          </td>
+          <td>
+            <span>
+              {{ coin.name }}
+            </span>
+            <span class="coin-name">
+              {{ coin.symbol }}
+            </span>
+          </td>
+          <td>
+            {{coin.current_price.toLocaleString()}}€
+          </td>
+          <td [ngClass]="coin.price_change_percentage_24h > 0 ? 'red-text ' : 'green-text'">
+            {{coin.price_change_percentage_24h}}
+          </td>
+          <td>
+            {{coin.total_volume.toLocaleString()}}€
+          </td>
+
+
+        </tr>
+      </tbody>
+    </table>
+
+      </div>
+
+    </div>
+    
+  </div>

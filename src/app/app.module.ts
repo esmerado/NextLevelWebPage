@@ -6,10 +6,23 @@ import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoinMarketComponent } from './components/coin-market/coin-market.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoinMarketComponent,
+    NavbarComponent,
+    AboutUsComponent,
+    ProductsComponent,
+    ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
