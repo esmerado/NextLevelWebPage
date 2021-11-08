@@ -2,3 +2,7 @@ body {
     background-color: #141414;
     color: #fff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
